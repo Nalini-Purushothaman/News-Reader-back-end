@@ -5,8 +5,6 @@ const router = express.Router();
 
 const apiKey = process.env.API_KEY;
 
-console.log("apiKey", apiKey);
-
 if (!apiKey) {
   console.log(
     "Please set the API_KEY environment variable with a valid newsapi.org apiKey and restart the server!"
